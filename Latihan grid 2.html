@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+
+ <style>
+    body {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        background-color: black;
+        height: 748px;
+        width: 748px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 0.3fr 1.2fr 0.4fr 0.5fr  0.4fr 0.3fr ;
+        grid-template-rows: 0.3fr 0.3fr 0.5fr 0.4fr 0.3fr 0.4fr 1fr 0.3fr 0.2fr 0.1fr ;
+    }
+
+    .item {
+        background-color: #F0F1EC;
+    }
+
+    .yellow1 {
+        background-color: #F9D01E;
+        grid-row: span 2;
+    }
+
+    .red1 {
+        background-color: #E72F24;
+        grid-row: span 2;
+        margin-top: 10px;
+    }
+
+    .white1 {
+        grid-row: span 2;
+        margin-top: 10px;
+    }
+
+    .white2 {
+        grid-column: span 3;
+        margin-right: 10px;
+    }
+
+    .white3 {
+        grid-row: span 6;
+    }
+
+    .blue1 {
+        background-color: #004592;
+        grid-row: span 3;
+    }
+
+    .black1 {
+        background-color: black;
+        grid-row: span 3;
+    }
+
+    .yellow2 {
+        background-color: #F9D01E;
+        grid-column: span 3;
+        grid-row: span 3;
+        margin-right: 10px;
+    }
+
+    .white4 {
+        
+    }
+
+    .black2 {
+        background-color: black;
+        grid-row: span 3;
+    }
+
+    .white5 {
+        grid-column: span 2;
+    }
+
+    .white6 {
+    grid-row: span 2;
+        
+    }
+
+    .red2 {
+        background-color: #E72F24;
+        grid-row: span 2;
+    }
+
+    .red3 {
+        background-color: #E72F24;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .blue2 {
+        background-color: #004592;
+        grid-column: span 2;
+    }
+
+    .white7 {
+        
+    }
+
+    .white8 {
+        margin-right: 10px;
+    }
+
+    .white9 {
+        grid-row: span 2;
+    }
+
+    .yellow3 {
+        background-color: #F9D01E;
+        grid-column: span 3;
+    }
+
+    .white10 {
+        grid-column: span 2;
+        margin-right: 10px;
+    }
+
+    .white11 {
+        grid-column: span 5;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item yellow1"></div>
+        <div class="item red1"></div>
+        <div class="item white1"></div>
+        <div class="item white2"></div>
+        <div class="item yellow2"></div>
+        
+        <div class="item white3"></div>
+        
+        
+        <div class="item blue1"></div>
+        <div class="item black1"></div>
+        <div class="item white5"></div>
+        <div class="item black2"></div>
+
+        <div class="item white4"></div>
+        
+        
+        <div class="item red2"></div>
+        <div class="item red3"></div>
+       
+
+        <div class="item white6"></div>
+        
+        
+        <div class="item blue2"></div>
+        <div class="item white7"></div>
+        <div class="item white8"></div>
+        <div class="item white9"></div>
+        <div class="item yellow3"></div>
+        <div class="item white10"></div>
+        <div class="item white11"></div>
+    </div>
+</body>
+</html>
